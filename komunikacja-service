@@ -1,0 +1,23 @@
+server:
+ port: 8084
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: "http://localhost:8761/eureka"
+spring:
+  boot:
+    message: "Hello, Wycieczki Service - Spring Cloud Bus"
+  mail:
+    default-encoding: UTF-8
+    protocol: smtp
+    host: smtp.gmail.com
+    port: 587
+    username: karolprzodownik@gmail.com
+    password: tkpnszpsxxlckepi
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
