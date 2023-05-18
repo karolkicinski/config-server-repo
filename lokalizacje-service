@@ -1,0 +1,11 @@
+server:
+  port: 8086
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: "http://localhost:8761/eureka"
+      
+spring:
+  boot:
+    message: "Hello, Lokalizacje Service - Spring Cloud Bus Demo"
